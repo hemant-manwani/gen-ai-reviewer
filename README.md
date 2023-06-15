@@ -8,22 +8,37 @@ We have created a github application which listens for new open PR events and re
 ChatGPT goes through the patches for every file in the PR and reviews them. We can set up the following environment variables for the github application.
 
 APP_ID=""
+
 WEBHOOK_SECRET=""
+
 PRIVATE_KEY_PATH=""
+
 MAX_PATCH_LENGTH=""
+
 OPENAI_API_KEY=""
+
 TARGET_LABEL=""
+
 TEMPERATURE="0.2"
+
 TOP_P="0"
+
 PROMPT="Below is a code patch, please help me do a brief code review on it. Any bug risks and/or improvement suggestions are welcome:"
+
 MODEL="gpt-3.5-turbo"
+
 MAX_TOKENS="128"
+
 LANGUAGE="English"
 
-App link - https://github.com/apps/gen-ai-reviewer
-Example link - https://github.com/hemant-manwani/gen-ai-reviewer/pull/6
 
 App link - https://github.com/apps/gen-ai-reviewer
+
+Example link - https://github.com/hemant-manwani/gen-ai-reviewer/pull/6
+
+
+App link - https://github.com/apps/gen-ai-reviewer
+
 Example link - https://github.com/hemant-manwani/gen-ai-reviewer/pull/6
 
 Repo link - https://github.com/hemant-manwani/gen-ai-reviewer/pull/6
@@ -31,7 +46,9 @@ Repo link - https://github.com/hemant-manwani/gen-ai-reviewer/pull/6
 References - 
 
 https://platform.openai.com/docs/guides/gpt/completions-api
+
 https://docs.github.com/en/apps/creating-github-apps/writing-code-for-a-github-app/building-a-github-app-that-responds-to-webhook-events
+
 https://docs.github.com/en/apps/creating-github-apps/registering-a-github-app/registering-a-github-app
 
 
